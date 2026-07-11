@@ -40,7 +40,7 @@ function App() {
       // Sort the remaining products by price! (This is why price must be a number)
       if (sortOrder === "low") return a.price - b.price;
       if (sortOrder === "high") return b.price - a.price;
-      return 0; // Don't sort if ""
+      return 0; // Don't sort if "" 
     });
 
   return (
@@ -166,5 +166,5 @@ function App() {
     </div>
   );
 }
-
+// 
 export default App;
