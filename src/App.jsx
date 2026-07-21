@@ -3,9 +3,12 @@ import { useState, useEffect } from 'react';
 
 // 2. This is our fake database. It's just a simple array of objects.
 const MOCK_PRODUCTS = [
-  { id: 1, name: "Wireless Headphones", price: 299, image: "🎧" },
-  { id: 2, name: "Smartwatch Pro", price: 199, image: "⌚" },
-  { id: 3, name: "Mechanical Keyboard", price: 149, image: "⌨️" }
+  { id: 1, name: "Sony Wireless Headphones", price: 299, image: "🎧" },
+  { id: 2, name: "Apple Smartwatch Pro", price: 199, image: "⌚" },
+  { id: 3, name: "Keychron Mechanical Keyboard", price: 149, image: "⌨️" },
+  { id: 4, name: "Samsung 4K Gaming Monitor", price: 399, image: "🖥️" },
+  { id: 5, name: "Logitech Ergonomic Mouse", price: 89, image: "🖱️" },
+  { id: 6, name: "Rode Studio Microphone", price: 129, image: "🎙️" }
 ];
 
 function App() {
