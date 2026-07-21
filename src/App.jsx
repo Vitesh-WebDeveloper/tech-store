@@ -132,6 +132,7 @@ function App() {
           
           {/* LEFT SIDE: PRODUCT LIST */}
           <div>
+            
             <h2 className="text-xl font-bold text-slate-700 mb-4">Products</h2>
             <div className="space-y-4">
               
